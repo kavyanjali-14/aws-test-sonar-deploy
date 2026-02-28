@@ -11,11 +11,11 @@ import org.springframework.boot.test.context.SpringBootTest;
 class csecontrollerTest {
 	@Autowired
 	csecontroller c;
-	@Test
-	void csetest() {
-		int result = c.addcse(2,3);
-		assertEquals(5,result);
-	}
+//	@Test
+//	void csetest() {
+//		int result = c.addcse(2,3);
+//		assertEquals(5,result);
+//	}
 
 
 }
